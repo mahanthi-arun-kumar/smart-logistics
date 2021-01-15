@@ -1,0 +1,42 @@
+.supplier-img {
+  /* height: 12rem; */
+  width: 100%;
+}
+
+.order-details-container {
+  display: flex !important;
+  padding-right: 0 !important;
+}
+
+.select-btn {
+  background-color: #49769c !important;
+  /* height: 3rem; */
+  /* padding: 0.5rem 1rem; */
+  border-radius: 0.8rem !important;
+  color: white !important;
+}
+
+.select-btn:active {
+  /* border: hidden; */
+  transform: translateY(0.25rem);
+}
+
+.service-label {
+  background: none !important;
+  font-size: medium !important;
+  font-weight: 600 !important;
+  padding-left: 0 !important;
+  color: #49769c !important;
+}
+
+.service-dd-container {
+  display: flex;
+  margin-bottom: 1.5rem;
+  flex-direction: column;
+  width: max-content;
+  margin-left: 5.4rem;
+}
+
+.service-dd > .menu{
+  width: max-content !important;
+}

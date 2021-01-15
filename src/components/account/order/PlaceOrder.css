@@ -1,0 +1,44 @@
+.fun-btn {
+  background: none !important;
+}
+
+.heading-label {
+  margin-top: 0.5rem;
+  font-weight: 700;
+  color: #49769c;
+  font-size: medium;
+}
+
+.value-label {
+  border: none !important;
+  font-size: medium !important;
+  font-weight: 100 !important;
+  padding: 0.678rem 0.5rem !important;
+}
+
+.order-details-container {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.btn-container {
+  display: flex !important;
+  flex-direction: inherit !important;
+}
+
+.remove-padding-top {
+  padding-top: 0% !important;
+}
+
+.card-style {
+  margin-left: 0% !important;
+  padding-bottom: 0% !important;
+}
+
+.proceed-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 2rem 0rem;
+  justify-content: space-between;
+
+}

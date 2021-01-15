@@ -1,0 +1,24 @@
+.login-container {
+    background-image: url("../../img/truck.jpg");
+    min-height: 50rem;
+    height: fit-content;
+    background-size: cover;
+    width: 100rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.login-form{
+    height: 100vh;
+}
+
+.home-link{
+    position: fixed;
+    padding: 2.5rem 2.5rem;
+    color: white;
+    text-transform: capitalize;
+    font-size: initial;
+    text-decoration: underline; 
+}

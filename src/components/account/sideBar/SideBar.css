@@ -1,0 +1,25 @@
+.sidebar-color {
+  background-color: #040220 !important;
+}
+.sideBar-height {
+  height: 91vh;
+}
+
+.login-header {
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 1rem; */
+  /* margin-right: 1rem; */
+}
+.user-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  font-weight: bolder;
+  color: #49769c;
+  text-transform: capitalize;
+}
+.sellerDetailsBody {
+  background-color: #ededed !important;
+}

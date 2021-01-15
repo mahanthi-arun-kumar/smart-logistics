@@ -1,0 +1,16 @@
+.number-of-orders {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 600px) {
+  .number-of-orders {
+    align-items: center;
+    flex-direction: column;
+  }
+  .order-count-box {
+    margin-bottom: 0.5rem;
+  }
+  .orders {
+    flex-direction: column;
+  }
+}

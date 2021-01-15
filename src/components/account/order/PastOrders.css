@@ -1,0 +1,116 @@
+.tableData {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 430px) {
+  .tableData {
+    font-size: 1rem;
+  }
+}
+.cn1 {
+  background: #e7ebef;
+}
+.cn2 {
+}
+.table-row {
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  opacity: 1;
+  margin-bottom: 0.1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 0.3rem;
+}
+.table-row-data {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  color: #7e7e7e !important;
+}
+.table-header {
+  background: #49769c 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-bottom: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  border-radius: 0.3rem;
+}
+.table-header-data {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.table-row-data-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  color: #7e7e7e !important;
+}
+.table-row-data-details {
+  color: #49769ceb !important;
+  cursor: pointer;
+  text-decoration: underline;
+}
+/* .accept,
+.reject {
+  margin: 0px !important;
+} */
+.accept {
+  margin-bottom: 0.5rem !important;
+}
+.table-row-data-buttons {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.all-orders {
+  overflow-y: scroll;
+}
+.display-mobile {
+  display: none;
+}
+.table-row-data-pay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.no-order-msg {
+  font-weight: 600;
+  margin-left: 1rem;
+  color: #49769c;
+}
+@media screen and (max-width: 600px) {
+  .sideBar-height {
+    height: 100%;
+  }
+  .display-mobile {
+    display: block;
+  }
+  .display-mobile-disabled {
+    display: none;
+  }
+  .table-data-mobile {
+    background: white;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .row-data {
+    margin-bottom: 0.5rem;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .table-header-data-mobile {
+    font-weight: 600;
+  }
+  .table-body-data-tracking {
+    color: blue;
+  }
+}

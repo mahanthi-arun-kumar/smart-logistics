@@ -1,0 +1,24 @@
+.mail-with-icon {
+  display: flex;
+  font-size: 1.5rem;
+  color: blue;
+  font-weight: 600;
+}
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email-value {
+  border: none;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* @media (max-width: 767px) {
+  .profile-details {
+    margin-left: 19% !important;
+    margin-right: 19% !important;
+  }
+} */

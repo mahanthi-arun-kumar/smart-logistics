@@ -1,0 +1,43 @@
+.fun-btn {
+  background: none !important;
+  color: #132b45 !important;
+}
+
+.heading-label {
+  margin-top: 0.5rem;
+  font-weight: 700;
+  color:#49769c;
+  font-size: medium;
+}
+
+.value-label {
+  border: none !important;
+  font-size: medium !important;
+  font-weight: 100 !important;
+}
+
+.order-details-container {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.btn-container {
+  display: flex !important;
+  flex-direction: inherit !important;
+}
+.select {
+  color: green !important;
+}
+
+.remove-padding-top {
+  padding-top: 0% !important;
+}
+
+.card-style-1 {
+  margin-left: 0% !important;
+}
+
+.proceed-container {
+  display: flex;
+  flex-direction: row-reverse;
+}

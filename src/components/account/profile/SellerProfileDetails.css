@@ -1,0 +1,34 @@
+.profile-details {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  /* align-items: flex-start; */
+  margin-left: 25% !important;
+  margin-right: 25% !important;
+  background: #ffffff;
+  border: 1rem solid #ffffff;
+  box-shadow: 11px 12px 4px rgb(230 220 224 / 86%);
+}
+.mail-with-icon {
+  display: flex;
+  font-size: 1.5rem;
+  color: #49769cdb;
+  font-weight: 600;
+}
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email-value {
+  border: none;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .profile-details {
+    margin-left: 19% !important;
+    margin-right: 19% !important;
+  }
+}

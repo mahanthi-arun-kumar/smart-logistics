@@ -1,0 +1,29 @@
+.orderStatus {
+  color: gray;
+  text-transform: uppercase;
+  margin-right: 1rem;
+  cursor: pointer;
+  /* margin-bottom: 2rem;
+  margin-left: 0.5rem; */
+}
+
+.orderActiveStatus {
+  color: #49769c;
+  text-transform: uppercase;
+  margin-right: 1rem;
+  cursor: pointer;
+  border-bottom: 3px solid#49769c;
+}
+
+.order-stauses {
+  display: flex;
+  margin-bottom: 2rem;
+  margin-left: 0.5rem;
+}
+.orders {
+  display: flex;
+  justify-content: space-between;
+}
+.placeOrder {
+  margin-bottom: 2rem !important;
+}

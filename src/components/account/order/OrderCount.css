@@ -1,0 +1,25 @@
+.order-count-box {
+  background: white;
+  height: 8rem;
+  width: 13rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  box-shadow: 0px 1px 2px #00000029;
+  opacity: 1;
+}
+.order-count-label {
+  font: normal normal bold 48px/57px Lato;
+  letter-spacing: 0px;
+  color: #49769ceb;
+  opacity: 1;
+  margin-left: 1rem;
+}
+.order-count-type {
+  font: normal normal bold 16px/19px Lato;
+  letter-spacing: 0px;
+  color: #838383;
+  opacity: 1;
+  margin-left: 1rem;
+}

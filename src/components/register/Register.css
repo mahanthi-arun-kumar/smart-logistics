@@ -1,0 +1,9 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.no-space{
+    margin-top: 0rem !important;
+    margin-bottom: 0.5rem !important;
+}

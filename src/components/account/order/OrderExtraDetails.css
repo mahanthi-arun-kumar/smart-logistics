@@ -1,0 +1,17 @@
+.extra-details-label{
+    color: #49769c;
+    font-size: 1.17rem;
+    font-weight: 600;
+}
+
+.extra-details-value{
+    margin: 0 0.5rem;
+    font-size: 1.17rem;
+    font-weight: 700;
+    color: #7e7e7e;
+    text-transform: capitalize;
+}
+
+.extra-details-container{
+    display: flex !important;
+}

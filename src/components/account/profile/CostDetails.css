@@ -1,0 +1,8 @@
+.cost-details {
+}
+.with-icon {
+  display: flex;
+  font-size: 1.5rem !important;
+  color: #49769cdb !important;
+  font-weight: 600 !important;
+}
